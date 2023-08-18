@@ -1,5 +1,11 @@
+require "hashmap"
+
 print("hello world!")
 
-local thing = @record{
-    
-}
+local cool_beans: hashmap(string, number)
+
+cool_beans["test"] = 5
+
+print(cool_beans["test"])
+
+print(cool_beans)
