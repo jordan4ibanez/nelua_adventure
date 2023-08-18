@@ -8,4 +8,9 @@ cool_beans["test"] = 5
 
 print(cool_beans["test"])
 
-print(cool_beans)
+
+local function test()
+    print("test works")
+end
+
+test()
