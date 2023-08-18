@@ -1,0 +1,16 @@
+{
+    "taskName": "Run main.nelua",
+    "command": "nelua",
+    "args": [
+        "main.nelua",
+    ],
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+    "type": "shell",
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "tasks": []
+  }
